@@ -3,13 +3,13 @@
 
 - 🌱 I’m currently learning **Flask**
 
-- 👨‍💻 All of my projects are available at [https://ngaremaina.github.io/Portfolio/](https://ngaremaina.github.io/Portfolio/)
+- 👨‍💻 All of my projects are available at [Portfolio](https://ngaremaina.github.io/Portfolio/)
 
 - 💬 Ask me about **React/Python**
 
-- 📫 How to reach me **ngaremaina4@gmail.com**
+- 📫 How to reach me: **ngaremaina4@gmail.com**
 
-- 📄 Know about my experiences [https://ngaremaina.github.io/Portfolio/](https://ngaremaina.github.io/Portfolio/)
+- 📄 Know about my background at [Portfolio](https://ngaremaina.github.io/Portfolio/)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
