@@ -7,8 +7,6 @@
 
 - 💬 Ask me about **React/Python**
 
-- 📫 How to reach me: **ngaremaina4@gmail.com**
-
 - 📄 Know about my background at [Portfolio](https://ngaremaina.github.io/ngaremaina/)
 
 <h3 align="left">Connect with me:</h3>
