@@ -7,7 +7,7 @@
 
 - 🔭 I’m currently working on [Lakucha Dishes](https://lakucha-dishes.onrender.com/)
 
-- 🌱 I’m currently learning **Flask**
+- 🌱 I’m currently learning **Angular**
 
 - 👨‍💻 All of my projects are available at [Portfolio](https://ngaremaina.github.io/Portfolio/)
 
