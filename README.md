@@ -9,13 +9,13 @@
 
 - 🌱 I’m currently learning **Angular**
 
-- 👨‍💻 All of my projects are available at [Portfolio](https://ngaremaina.github.io/Portfolio/)
+- 👨‍💻 All of my projects are available at [Portfolio](https://ngaremaina.github.io/ngaremaina/)
 
 - 💬 Ask me about **React**
 
 - 📫 How to reach me **mainaowen1997@gmail.com**
 
-- 📄 Know about my experiences [Portfolio](https://ngaremaina.github.io/Portfolio/)
+- 📄 Know about my experiences [Portfolio](https://ngaremaina.github.io/ngaremaina/)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
