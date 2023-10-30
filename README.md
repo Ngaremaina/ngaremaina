@@ -1,6 +1,8 @@
 <h1 align="center">Hi 👋, I'm Ngare Maina</h1>
 <h3 align="center">A passionate software engineer</h3>
 
+<p>I greatly like coding and software development as a source of personal pleasure and fulfillment. </p>
+
 
 
 
