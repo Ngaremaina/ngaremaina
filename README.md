@@ -1,8 +1,7 @@
 <h1 align="center">Hi 👋, I'm Ngare Maina</h1>
 <h3 align="center">About</h3>
 
-<h5>I'm a dependable, diligent, and passionate software engineer prepared to deepen my understanding of the field in order to make a substantial contribution to the company. I'm an enthusiastic, self-starting team player that relishes taking on new tasks.
-</h5>
+I'm a dependable, diligent, and passionate software engineer prepared to deepen my understanding of the field in order to make a substantial contribution to the company. I'm an enthusiastic, self-starting team player who relishes taking on new tasks.
 
 
 
