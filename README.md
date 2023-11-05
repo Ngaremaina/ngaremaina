@@ -43,23 +43,21 @@ Hi 👋, I'm Owen Maina. I am a result-oriented Software developer has a track r
 </p>
 
 
-<p align = "left">
+<p align = "center">
   <img src="https://github-readme-stats.vercel.app/api?username=ngaremaina&show_icons=true&locale=en&theme=dark" alt="ngaremaina" />&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ngaremaina&show_icons=true&locale=en&layout=compact&theme=dark" alt="ngaremaina" />  
 </p>
 
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ngaremaina&theme=dark" alt="ngaremaina" /></p>
 
 ## Top Repositories:
 <p align = "center">
-<a href="https://github.com/Ngaremaina/Lakucha-Dishes">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ngaremaina&repo=Lakucha-Dishes&theme=dark" />&nbsp;&nbsp;
-</a>
-<a href="https://github.com/Ngaremaina/Kitabu">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ngaremaina&repo=kitabu&theme=dark" />
-</a>
-  
+  <a href="https://github.com/Ngaremaina/Lakucha-Dishes">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ngaremaina&repo=Lakucha-Dishes&theme=dark" />&nbsp;&nbsp;
+  </a>
+  <a href="https://github.com/Ngaremaina/Kitabu">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ngaremaina&repo=kitabu&theme=dark" />
+  </a>
 </p>
 
 
