@@ -43,7 +43,7 @@ Hi 👋, I'm Owen Maina. I am a result-oriented Software developer has a track r
 </p>
 
 
-<p align = "left">
+<p align = "center">
   <img src="https://github-readme-stats.vercel.app/api?username=ngaremaina&show_icons=true&locale=en&theme=dark" alt="ngaremaina" />&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ngaremaina&show_icons=true&locale=en&layout=compact&theme=dark" alt="ngaremaina" />  
 </p>
