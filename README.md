@@ -1,11 +1,10 @@
+<p align="center">
+  <img src = "https://www.canva.com/design/DAFzTK1XOTk/Enwzady2CYVdy_x2TMWeKw/edit?utm_content=DAFzTK1XOTk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" />
+</p>
+
 <h1 align="center">Hi 👋, I'm Ngare Maina</h1>
 <h3 align="center">About</h3>
-
-I'm a dependable, diligent, and passionate software engineer prepared to deepen my understanding of the field in order to make a substantial contribution to the company. I'm an enthusiastic, self-starting team player who relishes taking on new tasks.
-
-
-
-
+Result-oriented Software developer has a track record of effectively leading projects and teams in the development of software. has a solid grasp of software development processes and the ability to match technological solutions to organizational objectives. capable of managing multidisciplinary teams to produce high-caliber software on schedule and within budget. Skilled in encouraging teamwork, stimulating creativity, and guaranteeing effective project implementation. 
 
 - 🔭 I’m currently working on [Lakucha Dishes](https://lakucha-dishes.onrender.com/)
 
