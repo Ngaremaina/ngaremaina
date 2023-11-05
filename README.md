@@ -42,7 +42,7 @@ Hi 👋, I'm Owen Maina. I am a result-oriented software developer with a track 
 
 
 
-## Top Repositories:
+## Top Projects:
 <p align = "center">
   <a href="https://github.com/Ngaremaina/Lakucha-Dishes">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ngaremaina&repo=Lakucha-Dishes&theme=dark" />&nbsp;&nbsp;
