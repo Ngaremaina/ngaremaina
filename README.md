@@ -3,7 +3,7 @@
 </p>
 
 ## Owen Maina
-Hi 👋, I'm Owen Maina. I am a result-oriented software developer with a track record of effectively leading projects and teams in the development of software. has a solid grasp of software development processes and the ability to match technological solutions to organizational objectives. capable of managing multidisciplinary teams to produce high-caliber software on schedule and within budget. Skilled in encouraging teamwork, stimulating creativity, and guaranteeing effective project implementation. Explore my [portfolio](https://ngaremaina.github.io/ngaremaina/) for more details.
+Hi 👋, I'm Owen Maina. My focus is on developing software and I have experience operating software development teams and projects successfully. My proficiency lies in aligning technology solutions with corporate objectives coupled with my profound knowledge of the software development methods. To deliver top-notch software on time and within budget, I am capable of leading interdisciplinary teams. I know how to foster innovation, support teamwork, and ensure that projects are carried out successfully. Explore my [portfolio](https://ngaremaina.github.io/ngaremaina/) for more details.
 
 
 ## Connect with me:
