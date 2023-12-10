@@ -1,0 +1,14 @@
+nav{
+    overflow: hidden;
+}
+
+a{
+    float: left;
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+}
+
+.top-nav-right{
+    float: right;
+}
+
