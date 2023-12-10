@@ -1,11 +1,25 @@
 nav{
     overflow: hidden;
+    background-color: black;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+img{
+    border-radius: 50%;
+    width: 70px;
+    height:70px;
 }
 
 a{
     float: left;
     text-decoration: none;
     padding: 0 10px 0 10px;
+    color: white;
 }
 
 .top-nav-right{

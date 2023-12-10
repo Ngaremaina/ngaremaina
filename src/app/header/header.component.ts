@@ -6,7 +6,7 @@ import { Component, ElementRef, Renderer2 } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  divIds: string[] = ['Contact', 'About', 'Home']; // IDs of the divs to scroll to
+  divIds: string[] = ['Contacts','My Projects','My Background', 'About', 'Home']; // IDs of the divs to scroll to
 
   constructor(private el: ElementRef, private renderer: Renderer2) {}
 
