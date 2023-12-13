@@ -17,4 +17,9 @@ export class HeaderComponent {
     }
   }
 
+  menuopen = false;
+  toggleMenu(){
+    this.menuopen = !this.menuopen;
+  }
+
 }

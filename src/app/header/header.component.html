@@ -1,6 +1,9 @@
 <nav>
     <a href="/">Owen Maina</a>
-    <div class="top-nav-right" *ngFor="let id of divIds">
+    <div class="togglebtn">
+        <i class="fa fa-bars" aria-hidden="true" (click)="toggleMenu()"></i>
+    </div> 
+    <div class="top-nav-right" *ngFor="let id of divIds" [class.open]="menuopen">
         <a (click)="scrollToElement(id)" href={{id}}>{{ id }}</a>
     </div>
 </nav>
