@@ -1,10 +1,6 @@
 <nav>
-    <div class="banner">
-        <img src="" alt=""/>
-        <a>Owen Maina</a>
-    </div>
-   
+    <a href="/">Owen Maina</a>
     <div class="top-nav-right" *ngFor="let id of divIds">
-        <a (click)="scrollToElement(id)">{{ id }}</a>
+        <a (click)="scrollToElement(id)" href={{id}}>{{ id }}</a>
     </div>
 </nav>

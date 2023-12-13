@@ -1,18 +1,6 @@
 nav{
     overflow: hidden;
-    background-color: black;
-}
-
-.banner{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-img{
-    border-radius: 50%;
-    width: 70px;
-    height:70px;
+    padding: 10px 20px 10px 20px; 
 }
 
 a{
