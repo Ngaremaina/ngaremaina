@@ -29,3 +29,51 @@
 #Home .text-header span{
     color: blue;
 }
+
+@media (max-width:768px){
+    #Home img{
+        width:300px;
+    }
+    #Home .text-header p:first-child{
+        font-size: 2rem;
+    }
+    #Home .text-header p:last-child{
+        font-size: 1.5rem;
+    }
+    #Home .text-header{
+        padding: 150px 20px 0 20px;
+        width: 100%;
+    }
+}
+
+@media (max-width:425px){
+    #Home img{
+        width:150px;
+    }
+    #Home .text-header p:first-child{
+        font-size: 1.5rem;
+    }
+    #Home .text-header p:last-child{
+        font-size: 1rem;
+    }
+    #Home .text-header{
+        padding: 80px 10px 0 10px;
+    }
+
+}
+
+@media (max-width:375px){
+    #Home img{
+        width:100px;
+    }
+    #Home .text-header p:first-child{
+        font-size: 1.2rem;
+    }
+    #Home .text-header p:last-child{
+        font-size: 0.8rem;
+    }
+    #Home .text-header{
+        padding: 50px 10px 0 10px;
+    }
+
+}
