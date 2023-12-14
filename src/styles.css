@@ -1,8 +1,11 @@
 body{
-    margin:0;
     background-color: black;
     box-sizing: border-box;
     color:white;
-    overflow-x: hidden;
-   
+    overflow-x: hidden;   
+}
+
+*{
+    margin: 0;
+    padding: 0;
 }

@@ -3,7 +3,11 @@
     <div class="togglebtn">
         <i class="fa fa-bars" aria-hidden="true" (click)="toggleMenu()"></i>
     </div> 
-    <div class="top-nav-right" *ngFor="let id of divIds" [class.open]="menuopen">
-        <a (click)="scrollToElement(id)" href={{id}}>{{ id }}</a>
+    <div class="top-nav-right" [class.open]="menuopen">
+        <a (click)="scrollToElement('Home')">Home</a>
+        <a (click)="scrollToElement('about')">About</a>
+        <a (click)="scrollToElement('background')">My Background</a>
+        <a (click)="scrollToElement('projects')">My Projects</a>
+        <a (click)="scrollToElement('contact')">Contact</a>
     </div>
 </nav>

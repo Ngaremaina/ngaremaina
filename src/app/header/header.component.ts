@@ -1,17 +1,23 @@
-import { Component, ElementRef, Renderer2 } from '@angular/core';
+import { Component, ElementRef, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
-export class HeaderComponent {
-  divIds: string[] = ['Contacts','My Projects','My Background', 'About', 'Home']; // IDs of the divs to scroll to
+export class HeaderComponent implements OnInit {
+  @Input() id:string = ""
 
-  constructor(private el: ElementRef, private renderer: Renderer2) {}
+  constructor(private el:ElementRef) {}
+
+  ngOnInit(): void {
+      
+  }
+
+  
 
   scrollToElement(id: string): void {
-    const element = this.el.nativeElement.querySelector(`#${id}`);
+    const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
     }
