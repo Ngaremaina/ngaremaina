@@ -1,0 +1,28 @@
+/* Tab header styles */
+.tab-header {
+  display: flex;
+}
+
+.tab-header button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.3s ease;
+}
+
+.tab-header button.active {
+  border-bottom-color: #333;
+}
+
+/* Tab content styles */
+.tab-content .tab-pane {
+  display: none;
+}
+
+.tab-content .tab-pane.active {
+  display: block;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
