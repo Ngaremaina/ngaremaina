@@ -7,7 +7,7 @@ const Footer =() => {
                 <div className="container text-center text-md-left">
                     <div className="row">
                         <div className="col-md-3 mx-auto">
-                            <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Introduction</h5>
+                            <h5 className="font-weight-bold text-uppercase mt-3 mb-3">Introduction</h5>
                             <ul className="list-unstyled">   
                                 <li>
                                     <h6>Owen Maina</h6>
@@ -16,33 +16,37 @@ const Footer =() => {
                                     <h6>Software Developer</h6>
                                 </li>
                                 <li>
-                                    <h6>Full-Stack Developer</h6>
+                                    <h6>Software Engineer</h6>
                                 </li>
                             </ul>
                         </div>
 
                         <hr className="clearfix w-100 d-md-none"/>
                         <div className="col-md-3 mx-auto">
-                            <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Social</h5>
+                            <h5 className="font-weight-bold text-uppercase mt-3 mb-3">Social</h5>
                             <ul className="list-unstyled">
                                 <li>
                                     <a className='link-opacity-25-hover' href="mailto:mainaowen1997@gmail.com"><i class="fa fa-envelope"></i> Gmail</a>
                                 </li>
                                 <li>
+                                    <a className='link-opacity-25-hover' href="https://github.com/Ngaremaina"><i class="fa fa-github"></i> Github</a>
+                                </li>
+                                <li>
                                     <a className='link-opacity-25-hover' href="https://www.linkedin.com/in/owen-ngare-maina/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
                                 </li>
                                 <li>
-                                    <a className='link-opacity-25-hover' href="https://github.com/Ngaremaina"><i class="fa fa-github"></i> Github</a>
-                                </li> 
-                                <li>
-                                    <a className='link-opacity-25-hover' href='www.google.com'><i class="fa-brands fa-hackerrank"></i> Hackerrank</a>
-                                </li>                      
+                                    <a className='link-opacity-25-hover' href='https://www.hackerrank.com/profile/Ngaremaina'><i class="fa-brands fa-hackerrank"></i> Hacker Rank</a>
+                                </li>                                   
+                                {/* <li>
+                                    <a className='link-opacity-25-hover' href='https://stackoverflow.com/users/22522141/ngare-maina'><i class="fab fa-stack-overflow"></i> Stack Overflow</a>
+                                </li>   */}
+                                                 
                             </ul>
                         </div>
 
                         <hr className="clearfix w-100 d-md-none"/>
                         <div className="col-md-3 mx-auto">
-                            <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Street Address</h5>
+                            <h5 className="font-weight-bold text-uppercase mt-3 mb-3">Street Address</h5>
                             <ul className="list-unstyled">
                                 <li>
                                     <h6>P.O Box 953-00520</h6>
@@ -63,7 +67,7 @@ const Footer =() => {
                         <hr className="clearfix w-100 d-md-none"/>         
                
                         <div className="col-md-3 mx-auto">
-                            <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Useful Links</h5>
+                            <h5 className="font-weight-bold text-uppercase mt-3 mb-3">Useful Links</h5>
                             <ul className="list-unstyled">
                                 <li>
                                     <ScrollLink className='link-opacity-25-hover' to="home" spy={true} smooth={true} offset={-70} duration={800}>
@@ -85,11 +89,11 @@ const Footer =() => {
                                         My Projects
                                     </ScrollLink>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <ScrollLink className='link-opacity-25-hover' to="contacts" spy={true} smooth={true} offset={-70} duration={800}>
                                         Contacts
                                     </ScrollLink>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>

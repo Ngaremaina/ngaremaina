@@ -1,0 +1,13 @@
+.card {
+    margin: 0 5px 0 5px;
+}
+
+  .card-img-top {
+    height: 300px;
+}
+
+
+.next {
+    float: right;
+  }
+
