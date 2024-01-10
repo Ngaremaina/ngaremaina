@@ -3,8 +3,10 @@ import "../styling/navbar.css"
 const NavBar = () => {
     return(
         <div className="container-fluid text-white">
-            <nav className="nav-bar mb-3">
+            <nav className="nav-bar mb-3">              
+                
                 <div className="nav justify-content-end">
+                    
                     <ScrollLink className="nav-link" to="home" spy={true} smooth={true} offset={-70} duration={800}>
                         Home
                     </ScrollLink>
@@ -22,7 +24,7 @@ const NavBar = () => {
                     </ScrollLink>
                 </div>
             </nav>
-        </div>
+         </div>
     )
 
 }
