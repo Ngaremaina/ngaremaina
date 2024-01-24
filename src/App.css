@@ -420,8 +420,11 @@ body {
   }
   
   /*--------------------------------------------------------------
-  # Akills
+  # Skills
   --------------------------------------------------------------*/
+  .skills, .background, .about, .projects, .contact{
+    margin-top: 50px;
+  }
   .skills .progress {
     height: 60px;
     display: block;
@@ -520,6 +523,7 @@ body {
   /*--------------------------------------------------------------
   # projects
   --------------------------------------------------------------*/
+
   .projects .projects-item {
     margin-bottom: 30px;
   }
@@ -834,6 +838,7 @@ body {
   # Contact
   --------------------------------------------------------------*/
   .contact {
+    margin-top: 50px;
     padding-bottom: 130px;
   }
   
