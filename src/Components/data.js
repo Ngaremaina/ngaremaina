@@ -10,7 +10,7 @@ export const projects = [
         name:"Kitabu",
         description:"Kitabu is a React web application that shows the user a collection of books. The user can view a list of their favorite books along with information about them, such the author, summary, price, and publisher, to mention a few. Also, the user can add their own book to the app and view it listed with all the other books",
         link:"https://kitabu.netlify.app/",
-        image:"assets/img/imgbook.jpg"
+        image:"assets/img/book.jpg"
 
     },
     
