@@ -1,5 +1,5 @@
 <p align="center">
-  <img src = "https://raw.githubusercontent.com/Ngaremaina/Ngaremaina/main/public/assets/img/Banner.jpg" />
+  <img src = "https://github.com/Ngaremaina/ngaremaina/blob/main/public/assets/img/Banner.png" />
 </p>
 
 ## Owen Maina
