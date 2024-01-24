@@ -10,7 +10,7 @@ const About = () => {
                 </div>
                 <div className="row">
                 <div className="col-lg-4" data-aos="fade-right">
-                    <img src="assets/img/ngare.jpg" className="img-fluid" alt = "ngare" />
+                    <img src="https://github.com/Ngaremaina/ngaremaina/blob/main/public/assets/img/ngare.jpg" className="img-fluid" alt = "ngare" />
                 </div>
                 <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                     <h3>Software Developer &amp; Software Engineer.</h3>
