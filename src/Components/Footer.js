@@ -1,5 +1,5 @@
 import { Link as ScrollLink, Element} from 'react-scroll';
-import "../styling/footer.css"
+// import "../styling/footer.css"
 const Footer =() => {
     return(
         <Element name="contact">
