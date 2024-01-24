@@ -13,7 +13,7 @@ const Skills = () => {
             <div className="row skills-content">
             <div className="col-lg-6" data-aos="fade-up">
                 <div className="progress">
-                <span className="skill">HTML 
+                <span className="skill">JavaScript
                 {/* <i className="val">100%</i> */}
                 </span>
                 {/* <div className="progress-bar-wrap">
@@ -21,7 +21,7 @@ const Skills = () => {
                 </div> */}
                 </div>
                 <div className="progress">
-                <span className="skill">CSS 
+                <span className="skill">React.js
                 {/* <i className="val">90%</i> */}
                 </span>
                 {/* <div className="progress-bar-wrap">
@@ -29,7 +29,7 @@ const Skills = () => {
                 </div> */}
                 </div>
                 <div className="progress">
-                <span className="skill">JavaScript
+                <span className="skill">MySQL
                  {/* <i className="val">75%</i> */}
                  </span>
                 {/* <div className="progress-bar-wrap">
