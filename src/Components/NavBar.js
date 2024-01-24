@@ -1,12 +1,12 @@
 import { Link as ScrollLink} from 'react-scroll';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 const NavBar = () => {
-  const [nav, setNav] = useState(false);
+  // const [nav, setNav] = useState(false);
 
-  const handleNav = () => {
-    setNav(!nav);
-  };
+  // const handleNav = () => {
+  //   setNav(!nav);
+  // };
  
     return(
       <div>
