@@ -230,7 +230,7 @@ body {
   #home {
     width: 100%;
     height: 100vh;
-    background: url("https://github.com/Ngaremaina/ngaremaina/blob/main/public/assets/img/profile.jpg") center;
+    background: url("assets/img/profile.jpg") center;
     background-size: cover;
   }
   
