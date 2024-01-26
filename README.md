@@ -10,7 +10,7 @@ Hi 👋, I'm Owen Maina. My focus is on developing software and I have experienc
 <p align="left">
 <a href="https://www.linkedin.com/in/owen-maina-3677b6179" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ngare maina" height="30" width="30" /></a>&nbsp;&nbsp;
 <a href="https://stackoverflow.com/users/22522141" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="22522141" height="30" width="30" /></a>&nbsp;&nbsp;
-<a href="mailto:mainaowen1997@gmail.com" target="blank"><img align="center" src="https://raw.githubusercontent.com/Ngaremaina/Ngaremaina/main/media/email-mail.svg" alt="ngare maina" height="30" width="30" /></a>
+<a href="mailto:mainaowen1997@gmail.com" target="blank"><img align="center" src="https://github.com/Ngaremaina/ngaremaina/blob/main/public/assets/img/email-mail.svg" alt="ngare maina" height="30" width="30" /></a>
 </p>
 
 ## Languages: 
