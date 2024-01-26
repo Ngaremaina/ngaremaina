@@ -9,7 +9,7 @@ const Contact = () => {
             <h2>Contact</h2>
             <p>Feel free to contact me</p>
           </div>
-          <div className="row" data-aos="fade-in">
+          <div className="row">
             <div className="col-lg-5 d-flex align-items-stretch">
               <div className="info">
                 <div className="address">

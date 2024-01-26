@@ -2,16 +2,19 @@ import { Link as ScrollLink} from 'react-scroll';
 // import { useState } from 'react';
 
 const NavBar = () => {
-  // const [nav, setNav] = useState(false);
+  // const [isActive, setActive] = useState(false)
+  // const [className, setClassName] = useState('')
 
-  // const handleNav = () => {
-  //   setNav(!nav);
-  // };
- 
+  // function handleNav(){
+  //   setActive(!isActive)
+  //   setClassName('mobile-nav-active')
+  // }
+  
     return(
       <div>
         {/* ======= Mobile nav toggle button ======= */}
-        <i className="bi bi-list mobile-nav-toggle d-xl-none" />
+        {/* <i className={`d-xl-none bi mobile-nav-toggle ${isActive ? 'bi-x' : 'bi-list'}`} onClick={handleNav}/> */}
+        
 
         <header id="header">
             <div className="d-flex flex-column">

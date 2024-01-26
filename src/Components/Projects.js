@@ -14,7 +14,7 @@ const Projects = () => {
             <h2>Personal Projects</h2>
             <p>Welcome to my web page, where innovation meets functionality! I am the creator behind these exciting projects that aim to enhance your digital experience.</p>
             </div>
-            {/* <div className="row" data-aos="fade-up">
+            {/* <div className="row">
             <div className="col-lg-12 d-flex justify-content-center">
                 <ul id="projects-flters">
                 <li data-filter="*" className="filter-active">All</li>
@@ -24,7 +24,7 @@ const Projects = () => {
                 </ul>
             </div>
             </div> */}
-            <div className="row projects-container" data-aos="fade-up" data-aos-delay={100}>
+            <div className="row projects-container">
                 {displayProjects}
             </div>
         </div>

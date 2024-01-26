@@ -130,6 +130,8 @@ body {
   @media (max-width: 1199px) {
     #header {
       left: -300px;
+      overflow-y: auto;
+      overflow-x: hidden;
     }
   
     #main {
@@ -218,11 +220,12 @@ body {
   }
   
   .mobile-nav-active {
-    overflow: hidden;
+    overflow: auto;
   }
   
   .mobile-nav-active #header {
     left: 0;
+    /* overflow-y: auto; */
   }
   
   /*--------------------------------------------------------------
@@ -250,6 +253,7 @@ body {
     position: relative;
     z-index: 2;
     min-width: 300px;
+    transition: opacity 8s ease-in-out;
    
   }
   

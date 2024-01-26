@@ -41,7 +41,7 @@ const Background = () => {
                 <div className="row">
                
 
-                <div className="col-lg-6" data-aos="fade-up">
+                <div className="col-lg-6">
                     <h3 className="background-title">Summary</h3>
                     <div className="background-item pb-0">
                     <h4>Owen Maina</h4>
@@ -56,7 +56,7 @@ const Background = () => {
                     <h3 className="background-title">Certifications</h3>
                     {displayCertifications}
                 </div>
-                <div className="col-lg-6" data-aos="fade-up" data-aos-delay={100}>
+                <div className="col-lg-6">
                     <h3 className="background-title">Internship Experience</h3>
                     {displayExperience}                    
                 </div>
