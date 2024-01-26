@@ -6,7 +6,7 @@ const Home = () => {
         <Element id="home" className="d-flex flex-column justify-content-center align-items-center">
         <div className="home-container">
             <h1>Owen Maina</h1>
-            <p>I'm <span />Software Developer</p>
+            <p><span />Software Developer</p>
         </div>
         </Element>
 
