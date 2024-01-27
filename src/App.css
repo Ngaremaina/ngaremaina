@@ -307,7 +307,7 @@ body {
   }
   
   .section-bg {
-    background: #f5f8fd;
+    background: #fff;
   }
   
   .section-title {
@@ -453,7 +453,7 @@ body {
   }
   
   .skills .progress-bar-wrap {
-    background: #dce8f8;
+    background: #fff;
     height: 10px;
   }
   
@@ -551,7 +551,7 @@ body {
     font-weight: 600;
     line-height: 1;
     text-transform: uppercase;
-    color: #272829;
+    color: #FFFFFF;
     margin-bottom: 5px;
     transition: all 0.3s ease-in-out;
   }

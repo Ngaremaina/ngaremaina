@@ -29,8 +29,9 @@ function App() {
         <Background/>
         <Contact/>
       </main>
-      <a href="/" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+      {/* <a href="www.google.com" className="back-to-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short" /></a> */}
 
+      <a href="google.com" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
     </div>
   );
 }
