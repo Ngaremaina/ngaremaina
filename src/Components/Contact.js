@@ -1,7 +1,38 @@
-import React from "react";
+import React,{useState} from "react";
 import { Element } from 'react-scroll'
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+  const [form, setForm] = useState({
+    name:"",
+    email:"",
+    subject:"",
+    message:""
+  })
+  const serviceId = 'service_st6q60w';
+  const templateId = 'template_257k3ts';
+  const publicKey = 'c8jD36fOp4sdd-JSy';
+
+  function handleSubmit(event){
+    event.preventDefault()
+    console.log(form)
+     emailjs.send(serviceId, templateId, form, publicKey)
+      .then((response) => {
+        console.log('Email sent successfully!', response);
+        setForm('')
+        
+      })
+      .catch((error) => {
+        console.error('Error sending email:', error);
+      });
+    }
+
+  function handleChange(event){
+    const input = event.target.name;
+    const value = event.target.value;
+    setForm(prev => {return {...prev, [input]:value}})
+  }
+
   
     return(
       <Element name="contact" className="contact">
@@ -32,24 +63,24 @@ const Contact = () => {
               </div>
             </div>
             <div className="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-              <form className="php-email-form">
+              <form className="php-email-form" onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="form-group col-md-6">
                     <label htmlFor="name">Your Name</label>
-                    <input type="text" name="name" className="form-control" id="name" required />
+                    <input type="text" name="name" className="form-control" id="name" value={form.name} required onChange={handleChange} />
                   </div>
                   <div className="form-group col-md-6">
                     <label htmlFor="name">Your Email</label>
-                    <input type="email" className="form-control" name="email" id="email" required />
+                    <input type="email" className="form-control" name="email" id="email" value={form.email} required onChange={handleChange}/>
                   </div>
                 </div>
                 <div className="form-group">
                   <label htmlFor="name">Subject</label>
-                  <input type="text" className="form-control" name="subject" id="subject" required />
+                  <input type="text" className="form-control" name="subject" id="subject" required value={form.subject} onChange={handleChange}/>
                 </div>
                 <div className="form-group">
                   <label htmlFor="name">Message</label>
-                  <textarea className="form-control" name="message" rows={10} required defaultValue={""} />
+                  <textarea className="form-control" name="message" value = {form.message} rows={10} required defaultValue={""} onChange={handleChange} />
                 </div>
                 <div className="my-3">
                   <div className="loading">Loading</div>
