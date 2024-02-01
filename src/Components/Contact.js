@@ -15,7 +15,6 @@ const Contact = () => {
 
   function handleSubmit(event){
     event.preventDefault()
-    console.log(form)
      emailjs.send(serviceId, templateId, form, publicKey)
       .then((response) => {
         console.log('Email sent successfully!', response);
@@ -25,6 +24,7 @@ const Contact = () => {
       .catch((error) => {
         console.error('Error sending email:', error);
       });
+      event.target.reset()
     }
 
   function handleChange(event){
