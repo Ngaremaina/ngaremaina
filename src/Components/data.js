@@ -34,7 +34,7 @@ export const projects = [
 export const experience = [
     {
         title:"Software Developer Intern",
-        date:"09/2023 - Present",
+        date:"09/2023 - 02/2024",
         company:"iTalanta, Nairobi, Kenya",
         roles:["Collaborating with a team of software developers to design, code, test, and debug web applications.",
             "Successfully delivering the project within the established timeline and meeting the expected project objectives.",
