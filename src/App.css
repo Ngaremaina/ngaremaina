@@ -1,11 +1,18 @@
 body {
     font-family: "Open Sans", sans-serif;
-    color: #272829;
+    background-color: #0F0F0F;
     overflow-x: hidden;
+    color: #FBFBFB;
   }
-  
+
+  .alternate-background{
+    background-color: #2D2E2E;
+  }
+  .background-two{
+    background-color: #0F0F0F;
+  }
   a {
-    color: #149ddd;
+    color: #BCABAE;
     text-decoration: none;
   }
   
@@ -21,6 +28,7 @@ body {
   h5,
   h6 {
     font-family: "Raleway", sans-serif;
+    color: #716969;
   }
   
   /*--------------------------------------------------------------
@@ -61,16 +69,16 @@ body {
   --------------------------------------------------------------*/
   #header {
     position: fixed;
-    top: 0;
+    /* top: 0;
     left: 0;
-    bottom: 0;
+    bottom: 0; */
     width: 300px;
     transition: all ease-in-out 0.5s;
     z-index: 9997;
     transition: all 0.5s;
     padding: 0 15px;
     background: #040b14;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
   }
   
   #header .profile img {
@@ -217,6 +225,7 @@ body {
     line-height: 0;
     border-radius: 50px;
     cursor: pointer;
+    overflow-x: scroll;
   }
   
   .mobile-nav-active {
@@ -254,6 +263,7 @@ body {
     z-index: 2;
     min-width: 300px;
     transition: opacity 8s ease-in-out;
+    
    
   }
   

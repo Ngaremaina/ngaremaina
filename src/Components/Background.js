@@ -46,10 +46,7 @@ const Background = () => {
                     <div className="background-item pb-0">
                     <h4>Owen Maina</h4>
                     <p><em>Results-oriented Software Developer with a successful track record in project and team management, demonstrating a deep understanding of software development principles. Experienced in leading cross-functional teams to deliver high-quality software on time and within budget, adept at fostering collaboration and driving innovation.</em></p>
-                    <ul>
-                        <li>Utawala, Nairobi, Kenya</li>
-                        <li>mainaowen1997@gmail.com</li>
-                    </ul>
+                    
                     </div>
                     <h3 className="background-title">Education</h3>
                     {displayEducation}
