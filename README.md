@@ -23,7 +23,6 @@ Hi 👋, I'm Owen Maina. My focus is on developing software and I have experienc
 
 ## Tools: 
 <p align = "left">
-   <img align="center" src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="css3" height="40" width="40" />&nbsp;&nbsp;
    <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="css3" height="40" width="40" />&nbsp;&nbsp;  
 </p>
 
