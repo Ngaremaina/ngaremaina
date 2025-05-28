@@ -45,8 +45,8 @@ Hi 👋, I'm Owen Maina. My focus is on developing software and I have experienc
   <a href="https://github.com/Ngaremaina/Lakucha-Dishes">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ngaremaina&repo=Lakucha-Dishes&theme=dark" />&nbsp;&nbsp;
   </a>
-  <a href="https://github.com/Ngaremaina/Kitabu">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ngaremaina&repo=kitabu&theme=dark" />
+  <a href="https://github.com/Ngaremaina/Recipe-Search-Engine">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ngaremaina&repo=Recipe-Search-Engine&theme=dark" />
   </a>
 </p>
 
