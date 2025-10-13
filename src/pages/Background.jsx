@@ -4,19 +4,19 @@ import { experience, education, certifications } from "../data/data";
 
 const Background = () => {    
     const displayExperience = experience.map((item) => {
-        return  <div className="background-item">
+        return  <div className="background-item" key={item.title}>
         <h4>{item.title}</h4>
         <h5>{item.date}</h5>
         <p><em>{item.company}</em></p>
         <ul>{item.roles.map((role)=>{
-            return <li>{role}</li>
+            return <li key={role}>{role}</li>
         })}
         </ul>
         </div>
     })
 
     const displayEducation = education.map(item => {
-        return <div className="background-item">
+        return <div className="background-item" key={item.title}>
         <h4>{item.title}</h4>
         <h5>{item.date}</h5>
         <p><em>{item.school}</em></p>
@@ -25,7 +25,7 @@ const Background = () => {
     })
 
     const displayCertifications = certifications.map(item => {
-        return <div className="background-item">
+        return <div className="background-item" key={item.title}>
         <h4>{item.title}</h4>
         <h5>{item.date}</h5>
         <p><em>{item.school}</em></p>

@@ -4,7 +4,7 @@ import Projects from './pages/Projects';
 import Home from './pages/Home';
 import About from './pages/About';
 import Background from './pages/Background';
-import Contact from './pages/Contact';
+import Contact from './components/Contact';
 import Skills from './pages/Skills';
 import { useState } from "react";
 import { Analytics } from "@vercel/analytics/react"
@@ -31,9 +31,7 @@ function App() {
         <Background/>
         <Contact/>
       </main>
-      {/* <a href="www.google.com" className="back-to-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short" /></a> */}
-
-      <a href="google.com" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+      <a href="google.com" className="back-to-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>
     </div>
   );
 }

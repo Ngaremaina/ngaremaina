@@ -3,7 +3,7 @@ import { projects } from '../data/data'
 
 const Projects = () => {
     const displayProjects = projects.map((project) => {
-        return <div className="max-w-sm alternate-background rounded-lg">
+        return <div className="max-w-sm alternate-background rounded-lg" key={project.name}>
             <img className="rounded-t-lg w-full h-1/2" src={project.image} alt ={project.name}/>
             <div className="p-4">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{project.name}</h5>
