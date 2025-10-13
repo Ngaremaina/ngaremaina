@@ -76,9 +76,23 @@
     });
   }
 
+  function escapeHtml(str) {
+    if (typeof str !== "string") str = String(str);
+    return str.replace(/[&<>"']/g, function (m) {
+      switch (m) {
+        case '&': return '&amp;';
+        case '<': return '&lt;';
+        case '>': return '&gt;';
+        case '"': return '&quot;';
+        case "'": return '&#39;';
+        default: return m;
+      }
+    });
+  }
+
   function displayError(thisForm, error) {
     thisForm.querySelector('.loading').classList.remove('d-block');
-    thisForm.querySelector('.error-message').innerHTML = error;
+    thisForm.querySelector('.error-message').innerHTML = escapeHtml(error);
     thisForm.querySelector('.error-message').classList.add('d-block');
   }
 
