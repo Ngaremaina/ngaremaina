@@ -2,14 +2,14 @@ export const projects = [
     {
         name:"Lakucha Dishes",
         description:"Lakucha Dishes is a web application that allows users to browse a menu, place orders, and make payments for their favorite dishes from a restaurant. It's a convenient way for customers to enjoy delicious meals from the comfort of their homes or offices.",
-        link:"https://lakucha-dishes.onrender.com/",
+        link:"https://lakucha-dishes.vercel.app",
         image:"assets/img/logo.jpeg"
 
     },
     {
         name:"Kitabu",
         description:"Kitabu is a React web application that shows the user a collection of books. The user can view a list of their favorite books along with information about them, such the author, summary, price, and publisher, to mention a few. Also, the user can add their own book to the app and view it listed with all the other books",
-        link:"https://kitabu.netlify.app/",
+        link:"https://kitabu-sand.vercel.app",
         image:"assets/img/book.jpg"
 
     },
@@ -17,21 +17,21 @@ export const projects = [
     {
         name:"User Central",
         description:"This system allows efficient management of users and task assignments within our organization. The backend is built with Flask, a Python web framework, providing robust and scalable API endpoints. On the frontend, we utilize React with TypeScript for a modern and type-safe user interface.",
-        link:"https://user-management-system-3sxg.onrender.com/",
+        link:"https://user-central.vercel.app",
         image:"https://cdn.pixabay.com/photo/2021/02/03/00/10/receptionists-5975962_1280.jpg"
 
     },
     {
         name:"YouAnime",
         description:"YouAnime is an interactive platform that ensures the safety and well-being of children while using the platform by effectively direct kids to age-appropriate content.",
-        link:"https://youanime.netlify.app/",
+        link:"https://you-anime.vercel.app",
         image:"assets/img/children.jpg"
 
     },
     {
         name:"Mapishi",
         description:"Mapishi provide cooks at home with recipes that will assist them to live a healthier and happier life for themselves, their communities, and the world. The software enables the user to look for recipes and examine information about them, including their ingredients.",
-        link:"https://mapishi.netlify.app/",
+        link:"https://mapishi.vercel.app",
         image:"https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 
     },

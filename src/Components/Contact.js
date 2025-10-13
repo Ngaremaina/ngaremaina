@@ -36,10 +36,11 @@ const Contact = () => {
   
     return(
       <Element name="contact">
-        <div className="pl-2 mt-2">
+        <div className="section-title">
           <h2 className="mb-2 font-bold text-3xl">Contact</h2>
+        </div>
+        <div className="pl-2 mt-2">
           <p className="ml-2 text-xl">Feel free to contact me</p>
-
         </div>
         <div className="grid md:grid-cols-2 gap-3 p-2">
         <div className="p-4 rounded-lg alternate-background">

@@ -33,14 +33,12 @@ const Background = () => {
     })
     return(
             <Element name="background" className="background">
-            <div className="container">
+            <div className="container mb-3">
                 <div className="section-title">
                 <h2>My Background</h2>
                 <p>Experienced Software Developer focused on achieving tangible outcomes, showcasing a demonstrated history of effectively overseeing software projects and teams. Exhibits a profound comprehension of software development principles and methodologies, with a robust capacity to synchronize technological solutions with organizational objectives. Skilled in guiding cross-functional teams to achieve the timely and budget-friendly delivery of top-notch software. Proficient in fostering teamwork, promoting innovation, and ensuring streamlined project implementation.</p>
                 </div>
                 <div className="row">
-               
-
                 <div className="col-lg-6">
                     <h3 className="background-title">Summary</h3>
                     <div className="background-item pb-0">

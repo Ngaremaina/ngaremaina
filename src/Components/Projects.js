@@ -22,8 +22,11 @@ const Projects = () => {
         
         <Element name="projects" className="">
         <div className="p-2">
+            <div className="section-title">
+                <h2>Personal Projects</h2>
+            </div>
+
             <div className="text-white mb-3">
-                <h2 className='font-bold text-4xl'>Personal Projects</h2>
                 <p>Welcome to my web page, where innovation meets functionality! I am the creator behind these exciting projects that aim to enhance your digital experience.</p>
             </div>
             <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-3">

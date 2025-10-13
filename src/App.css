@@ -317,7 +317,7 @@ body {
   }
   
   .section-bg {
-    background: #fff;
+    background: #737373;
   }
   
   .section-title {
@@ -454,7 +454,7 @@ body {
     display: block;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
-    color: #050d18;
+    color: #fff;
   }
   
   .skills .progress .skill .val {
