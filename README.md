@@ -23,31 +23,38 @@ Hi 👋, I'm Owen Maina. My focus is on developing software and I have experienc
 
 ## Tools: 
 <p align = "left">
-   <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="css3" height="40" width="40" />&nbsp;&nbsp;  
+     <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" height="40" width="40" />&nbsp;&nbsp;
+    <img align="center" src="https://www.vectorlogo.zone/logos/palletsprojects_flask/palletsprojects_flask-ar21~v2.svg" alt="flask" height="40" width="40" />&nbsp;&nbsp;
+  <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg" alt="springboot" height="40" width="40" />&nbsp;&nbsp;
+
 </p>
 
 ## Database: </h3>
 <p align="left">
   <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" height="40" width="40" />&nbsp;&nbsp;
   <img align="center" src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" height="40" width="40" />&nbsp;&nbsp;  
+  <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" height="40" width="40" />&nbsp;&nbsp;
+  <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" height="40" width="40" />&nbsp;&nbsp;
+
 </p>
 
 
-<p align = "center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ngaremaina&show_icons=true&locale=en&theme=dark" alt="ngaremaina" />&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ngaremaina&show_icons=true&locale=en&layout=compact&theme=dark" alt="ngaremaina" />  
-</p>
+<div align = "center">
+  <img src="https://github-readme-stats-rho-kohl-64.vercel.app/api?username=ngaremaina&show_icons=true&locale=en&theme=dark" alt="ngaremaina" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github-readme-stats-rho-kohl-64.vercel.app/api/top-langs?username=ngaremaina&show_icons=true&locale=en&layout=compact&theme=dark" alt="ngaremaina" /> 
+</div>
 
 
 
-## Top Projects:
-<p align = "center">
-  <a href="https://github.com/Ngaremaina/Lakucha-Dishes">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ngaremaina&repo=Lakucha-Dishes&theme=dark" />&nbsp;&nbsp;
+## Featured:
+<div align = "center">
+  <a href="https://github.com/Ngaremaina/Kitabu">
+    <img align="center" src="https://github-readme-stats-rho-kohl-64.vercel.app/api/pin/?username=ngaremaina&repo=Kitabu&theme=dark" />&nbsp;&nbsp;
   </a>
   <a href="https://github.com/Ngaremaina/Mapishi">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ngaremaina&repo=Mapishi&theme=dark" />
+    <img align="center" src="https://github-readme-stats-rho-kohl-64.vercel.app/api/pin/?username=ngaremaina&repo=Mapishi&theme=dark"/>
   </a>
-</p>
+</div>
+
 
 
