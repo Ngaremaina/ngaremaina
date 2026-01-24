@@ -3,7 +3,7 @@
 </p>
 
 ## Owen Maina
-Hi 👋, I'm Owen Maina. My focus is on developing software and I have experience operating software development teams and projects successfully. My proficiency lies in aligning technology solutions with corporate objectives coupled with my profound knowledge of the software development methods. To deliver top-notch software on time and within budget, I am capable of leading interdisciplinary teams. I know how to foster innovation, support teamwork, and ensure that projects are carried out successfully. Explore my [portfolio](https://owenmaina.netlify.app/) for more details.
+Hi 👋, I'm Owen Maina. My focus is on developing software and I have experience operating software development teams and projects successfully. My proficiency lies in aligning technology solutions with corporate objectives coupled with my profound knowledge of the software development methods. To deliver top-notch software on time and within budget, I am capable of leading interdisciplinary teams. I know how to foster innovation, support teamwork, and ensure that projects are carried out successfully. Explore my [portfolio](https://ngaremaina.vercel.app/) for more details.
 
 
 ## Connect with me:
@@ -40,8 +40,8 @@ Hi 👋, I'm Owen Maina. My focus is on developing software and I have experienc
 
 
 <div align = "center">
-  <img src="https://github-readme-stats-rho-kohl-64.vercel.app/api?username=ngaremaina&show_icons=true&locale=en&theme=dark" alt="ngaremaina" />&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github-readme-stats-rho-kohl-64.vercel.app/api/top-langs?username=ngaremaina&show_icons=true&locale=en&layout=compact&theme=dark" alt="ngaremaina" /> 
+  <img src="https://github-readme-stats.vercel.app/api?username=ngaremaina&show_icons=true&locale=en&theme=dark" alt="ngaremaina" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ngaremaina&show_icons=true&locale=en&layout=compact&theme=dark" alt="ngaremaina" /> 
 </div>
 
 
@@ -49,12 +49,13 @@ Hi 👋, I'm Owen Maina. My focus is on developing software and I have experienc
 ## Featured:
 <div align = "center">
   <a href="https://github.com/Ngaremaina/Kitabu">
-    <img align="center" src="https://github-readme-stats-rho-kohl-64.vercel.app/api/pin/?username=ngaremaina&repo=Kitabu&theme=dark" />&nbsp;&nbsp;
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ngaremaina&repo=Kitabu&theme=dark" />&nbsp;&nbsp;
   </a>
   <a href="https://github.com/Ngaremaina/Mapishi">
-    <img align="center" src="https://github-readme-stats-rho-kohl-64.vercel.app/api/pin/?username=ngaremaina&repo=Mapishi&theme=dark"/>
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ngaremaina&repo=Mapishi&theme=dark"/>
   </a>
 </div>
+
 
 
 
