@@ -39,23 +39,6 @@ Hi 👋, I'm Owen Maina. My focus is on developing software and I have experienc
 </p>
 
 
-<div align = "center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ngaremaina&show_icons=true&locale=en&theme=dark" alt="ngaremaina" />&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ngaremaina&show_icons=true&locale=en&layout=compact&theme=dark" alt="ngaremaina" /> 
-</div>
-
-
-
-## Featured:
-<div align = "center">
-  <a href="https://github.com/Ngaremaina/Kitabu">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ngaremaina&repo=Kitabu&theme=dark" />&nbsp;&nbsp;
-  </a>
-  <a href="https://github.com/Ngaremaina/Mapishi">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ngaremaina&repo=Mapishi&theme=dark"/>
-  </a>
-</div>
-
 
 
 
