@@ -1,47 +1,56 @@
 import { Element } from "react-scroll";
+import { details } from "../data/about";
+import profile from '../assets/img/ngare.jpg'
 
 const About = () => {
-    return(
-            <Element name="about" className="about">
-            <div className="container">
-                <div className="section-title">
-                <h2>About</h2>
-                <p>Results-driven Software Developer with a proven track record of successfully managing software projects and teams. Possesses a deep understanding of software development principles and practices and a strong ability to align technology solutions with business goals. Experienced in leading cross-functional teams to deliver high-quality software on time and within budget. Adept at fostering collaboration, driving innovation, and ensuring efficient project execution.</p>
-                </div>
-                <div className="row">
-                <div className="col-lg-4">
-                    <img src="assets/img/ngare.jpg" className="img-fluid" alt = "ngare" />
-                </div>
-                <div className="col-lg-8 pt-4 pt-lg-0 content">
-                    <h3>Software Developer &amp; Software Engineer.</h3>
-                    <p className="fst-italic">
-                    I greatly like coding and software development as a source of personal pleasure and fulfillment.
-                    </p>
-                    <div className="row">
-                    <div className="col-lg-6">
-                        <ul>
-                            <li><i className="bi bi-chevron-right" /> <strong>Website:</strong> <span><a href="https://owenmaina.netlify.app/">Owen Maina</a></span></li>
-                            <li><i className="bi bi-chevron-right" /> <strong>City:</strong> <span>Nairobi Kenya</span></li>
-                        </ul>
-                    </div>
-                    <div className="col-lg-6">
-                        <ul>
-                            <li><i className="bi bi-chevron-right" /> <strong>Degree:</strong> <span>Bachelors of Science in IT</span></li>
-                            <li><i className="bi bi-chevron-right" /> <strong>Email:</strong> <span><a href="mailto:mainaowen1997@gmail.com">Owen Maina</a></span></li>
-                        </ul>
-                    </div>
-                    </div>
-                    <p>
-                    My focus is on developing software and I have experience operating software development teams and projects successfully. My proficiency lies in aligning technology solutions with corporate objectives coupled with my profound knowledge of the software development methods. To deliver top-notch software on time and within budget, I am capable of leading interdisciplinary teams. I know how to foster innovation, support teamwork, and ensure that projects are carried out successfully.
-                    </p>
-                </div>
-                </div>
-            </div>
-            </Element>
+  return (
+    <Element name="about" className="py-12">
+      <h2 className="section-heading">About</h2>
+      <p className="mb-8 max-w-4xl text-light/90">
+        Results-driven Software Developer with a proven track record of successfully managing software
+        projects and teams. Possesses a deep understanding of software development principles and
+        practices and a strong ability to align technology solutions with business goals. Experienced
+        in leading cross-functional teams to deliver high-quality software on time and within budget.
+        Adept at fostering collaboration, driving innovation, and ensuring efficient project execution.
+      </p>
 
-        
-    )
+      <div className="grid gap-8 md:grid-cols-3">
+        <img
+          src={profile}
+          alt="Owen Maina"
+          className="w-full rounded-lg object-cover md:col-span-1"
+        />
+        <div className="md:col-span-2">
+          <h3 className="text-2xl font-bold text-white">
+            Software Developer &amp; Software Engineer.
+          </h3>
+          <p className="mt-2 italic text-light/80">
+            I greatly like coding and software development as a source of personal pleasure and
+            fulfillment.
+          </p>
 
-}
+          <ul className="my-6 grid gap-3 sm:grid-cols-2">
+            {details.map((item) => (
+              <li key={item.label} className="flex items-center gap-2 text-light/90">
+                <i className="bi bi-chevron-right text-accent" />
+                <strong className="text-white">{item.label}:</strong>
+                {item.href ? <a href={item.href}>{item.value}</a> : <span>{item.value}</span>}
+              </li>
+            ))}
+          </ul>
 
-export default About
+          <p className="text-light/90">
+            My focus is on developing software and I have experience operating software development
+            teams and projects successfully. My proficiency lies in aligning technology solutions with
+            corporate objectives coupled with my profound knowledge of the software development methods.
+            To deliver top-notch software on time and within budget, I am capable of leading
+            interdisciplinary teams. I know how to foster innovation, support teamwork, and ensure that
+            projects are carried out successfully.
+          </p>
+        </div>
+      </div>
+    </Element>
+  );
+};
+
+export default About;

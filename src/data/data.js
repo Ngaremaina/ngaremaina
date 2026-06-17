@@ -1,16 +1,20 @@
+import lakucha from '../assets/img/lakucha.jpeg';
+import book from '../assets/img/book.jpg';
+import youanime from '../assets/img/youanime.jpg'
+
 export const projects = [
     {
         name:"Lakucha Dishes",
         description:"Lakucha Dishes is a web application that allows users to browse a menu, place orders, and make payments for their favorite dishes from a restaurant. It's a convenient way for customers to enjoy delicious meals from the comfort of their homes or offices.",
         link:"https://lakucha-dishes.vercel.app",
-        image:"assets/img/logo.jpeg"
+        image: lakucha
 
     },
     {
         name:"Kitabu",
         description:"Kitabu is a React web application that shows the user a collection of books. The user can view a list of their favorite books along with information about them, such the author, summary, price, and publisher, to mention a few. Also, the user can add their own book to the app and view it listed with all the other books",
         link:"https://kitabu-sand.vercel.app",
-        image:"assets/img/book.jpg"
+        image: book
 
     },
     
@@ -25,7 +29,7 @@ export const projects = [
         name:"YouAnime",
         description:"YouAnime is an interactive platform that ensures the safety and well-being of children while using the platform by effectively direct kids to age-appropriate content.",
         link:"https://you-anime.vercel.app",
-        image:"assets/img/children.jpg"
+        image: youanime
 
     },
     {
@@ -37,6 +41,15 @@ export const projects = [
     },
 ]   
 
+
+export const skills = [
+    { name: "JavaScript", level: 100 },
+    { name: "React.js", level: 90 },
+    { name: "Python", level: 80 },
+    { name: "Flask", level: 90 },
+    { name: "MySQL", level: 75 },
+    { name: "Git", level: 85 },
+]
 
 export const experience = [
     {

@@ -1,3 +1,66 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-base text-light font-sans antialiased;
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading text-white;
+  }
+
+  a {
+    @apply text-muted transition-colors hover:text-accent-hover;
+  }
+}
+
+@layer components {
+  /* Surface used for cards / alternate panels */
+  .card {
+    @apply rounded-lg bg-surface p-6;
+  }
+
+  /* Section heading with the signature accent underline */
+  .section-heading {
+    @apply relative mb-8 inline-block pb-3 text-3xl font-bold text-white;
+  }
+
+  .section-heading::after {
+    @apply absolute bottom-0 left-0 h-[3px] w-12 bg-accent content-[''];
+  }
+
+  /* Primary call-to-action button */
+  .btn-primary {
+    @apply inline-flex items-center rounded-lg bg-accent px-4 py-2.5 text-sm font-medium text-white transition hover:bg-accent-hover focus:outline-none focus:ring-4 focus:ring-accent/40;
+  }
+
+  /* Sidebar navigation link */
+  .nav-link {
+    @apply flex cursor-pointer items-center gap-3 rounded px-4 py-3 text-[15px] text-muted transition-colors hover:text-white;
+  }
+
+  .nav-link i {
+    @apply text-2xl text-[#6f7180] transition-colors;
+  }
+
+  .nav-link:hover i,
+  .nav-link.active i {
+    @apply text-accent;
+  }
+
+  .nav-link.active {
+    @apply text-white;
+  }
+
+  .icon{
+    @apply w-6;
+  }
+}

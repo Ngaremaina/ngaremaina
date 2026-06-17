@@ -1,73 +1,38 @@
-import { Element } from 'react-scroll'
+import { Element } from "react-scroll";
+import { skills } from "../data/data";
 
 const Skills = () => {
-    return(
-    
-        <Element name="skills" className="skills">
-        <div className="container">
-            <div className="section-title">
-            <h2>Skills</h2>
-            {/* <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> */}
-            </div>
-            <div className="row skills-content">
-            <div className="col-lg-6">
-                <div className="progress">
-                <span className="skill">JavaScript
-                {/* <i className="val">100%</i> */}
-                </span>
-                {/* <div className="progress-bar-wrap">
-                    <div className="progress-bar" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100} />
-                </div> */}
-                </div>
-                <div className="progress">
-                <span className="skill">React.js
-                {/* <i className="val">90%</i> */}
-                </span>
-                {/* <div className="progress-bar-wrap">
-                    <div className="progress-bar" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100} />
-                </div> */}
-                </div>
-                <div className="progress">
-                <span className="skill">MySQL
-                 {/* <i className="val">75%</i> */}
-                 </span>
-                {/* <div className="progress-bar-wrap">
-                    <div className="progress-bar" role="progressbar" aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
-                </div> */}
-                </div>
-            </div>
-            <div className="col-lg-6">
-                <div className="progress">
-                <span className="skill">Python 
-                {/* <i className="val">80%</i> */}
-                </span>
-                {/* <div className="progress-bar-wrap">
-                    <div className="progress-bar" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100} />
-                </div> */}
-                </div>
-                <div className="progress">
-                <span className="skill">Flask 
-                {/* <i className="val">90%</i> */}
-                </span>
-                {/* <div className="progress-bar-wrap">
-                    <div className="progress-bar" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100} />
-                </div> */}
-                </div>
-                <div className="progress">
-                <span className="skill">Git
-                 {/* <i className="bi-github">55%</i> */}
-                 </span>
-                {/* <div className="progress-bar-wrap">
-                    <div className="progress-bar" role="progressbar" aria-valuenow={55} aria-valuemin={0} aria-valuemax={100} />
-                </div> */}
-                </div>
-            </div>
-            </div>
-        </div>
-        </Element>
+  return (
+    <Element name="skills" className="py-12">
+      <h2 className="section-heading">Skills</h2>
 
-    )
+      <div className="grid gap-x-10 gap-y-6 md:grid-cols-2">
+        {skills.map((skill) => (
+          <div key={skill.name}>
+            <div className="mb-2 flex items-center justify-between">
+              <span className="font-semibold uppercase tracking-wide text-white">
+                {skill.name}
+              </span>
+              <span className="text-sm text-muted">{skill.level}%</span>
+            </div>
+            <div
+              className="h-2.5 w-full rounded-full bg-white/10"
+              role="progressbar"
+              aria-label={skill.name}
+              aria-valuenow={skill.level}
+              aria-valuemin={0}
+              aria-valuemax={100}
+            >
+              <div
+                className="h-2.5 rounded-full bg-accent transition-all duration-700"
+                style={{ width: `${skill.level}%` }}
+              />
+            </div>
+          </div>
+        ))}
+      </div>
+    </Element>
+  );
+};
 
-}
-
-export default Skills
+export default Skills;

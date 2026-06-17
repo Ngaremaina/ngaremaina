@@ -1,67 +1,73 @@
-import { Link as ScrollLink} from 'react-scroll';
-import { useState } from 'react';
+import { Link as ScrollLink } from "react-scroll";
+import { socialLinks, navItems } from "../data/home";
+import profile from '../assets/img/ngare.jpg'
 
-const NavBar = () => {
-//   const [isActive, setActive] = useState(false)
-//   const [className, setClassName] = useState('')
+const NavBar = ({ isOpen = false, onNavigate = () => {} }) => {
+  return (
+    <header
+      className={`fixed left-0 top-0 z-40 h-screen w-72 overflow-y-auto bg-sidebar px-4 transition-transform duration-500 lg:translate-x-0 ${
+        isOpen ? "translate-x-0" : "-translate-x-full"
+      }`}
+    >
+      <div className="flex flex-col">
+        <div className="py-6 text-center">
+          <img
+            src={profile}
+            alt="Owen Maina"
+            className="mx-auto h-28 w-28 rounded-full border-8 border-[#2c2f3f] object-cover"
+          />
+          <h1 className="mt-4 text-2xl font-semibold text-white">
+            <a href="/" className="text-white hover:text-white">
+              Owen Maina
+            </a>
+          </h1>
+          <div className="mt-3 flex justify-center gap-2">
+            {socialLinks.map((link) => {
+              const Icon = link.icon; // 👈 important
 
-//   function handleNav(){
-//     setActive(!isActive)
-//     setClassName('mobile-nav-active')
-//   }
-  
-    return(
-      <div>
-        {/* ======= Mobile nav toggle button ======= */}
-        {/* <i className={`d-xl-none bi mobile-nav-toggle ${isActive ? 'bi-x' : 'bi-list'}`} onClick={handleNav}/> */}
-        
+              return (
+                <a
+                  key={link.label}
+                  href={link.href}
+                  aria-label={link.label}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex h-9 w-9 items-center justify-center rounded-full bg-[#212431] text-white transition hover:bg-accent hover:text-white"
+                >
+                  <Icon className="w-5 h-5" />
+                </a>
+              );
+            })}
+          </div>
+        </div>
 
-        <header id="header">
-            <div className="d-flex flex-column">
-              <div className="profile">
-                <img src="assets/img/ngare.jpg" alt='ngare' className="img-fluid rounded-circle" />
-                <h1 className="text-light"><a href="index.html">Owen Maina</a></h1>
-                <div className="social-links mt-3 text-center">
-                  <a href="mailto:mainaowen1997@gmail.com" className="envelope"><i className="bx bx-envelope" /></a>
-                  <a href="https://github.com/Ngaremaina" className="github"><i className="bx bxl-github" /></a>
-                  <a href="https://www.linkedin.com/in/owen-ngare-maina/" className="linkedin"><i className="bx bxl-linkedin" /></a>
-                </div>
-              </div>
-              <nav id="navbar" className="nav-menu navbar">
-                <ul>
-                    <li><ScrollLink className="nav-link" to="home" spy={true} smooth={true} offset={-70} duration={800}>
-                      <i className="bx bx-home" /> <span>Home</span>
-                    </ScrollLink></li>
-                    <li>
-                    <ScrollLink className="nav-link" to="about" spy={true} smooth={true} offset={-70} duration={800}>
-                      <i className="bx bx-user" /> <span>About</span>
-                    </ScrollLink>
-                    </li>
-                    <li>
-                    <ScrollLink className="nav-link" to="projects" spy={true} smooth={true} offset={-70} duration={800}>
-                    <i className="bx bx-briefcase" /> <span>Projects</span>
-                    </ScrollLink>
-                    </li>
-                    <li>
-                    <ScrollLink className="nav-link" to="skills" spy={true} smooth={true} offset={-70} duration={800}>
-                    <i className="bx bi-gear-fill" /> <span>Skills</span>
-                    </ScrollLink>
-                    </li>
-                    <li>
-                    <ScrollLink className="nav-link" to="background" spy={true} smooth={true} offset={-70} duration={800}>
-                      <i className="bx bi-clock-history" /> <span>Background</span>
-                    </ScrollLink>
-                    </li>
-                    <li>
-                    <ScrollLink className="nav-link" to="contact" spy={true} smooth={true} offset={-70} duration={800}>
-                      <i className="bx bx-envelope" /> <span>Contact</span>
-                    </ScrollLink>
-                    </li>
-                </ul>
-              </nav>
-            </div>
-          </header>
+        <nav>
+          <ul className="space-y-1">
+            {navItems.map((item) => {
+              const Icon = item.icon; 
+              return (
+                <li key={item.to}>
+                  <ScrollLink
+                    className="nav-link"
+                    activeClass="active"
+                    to={item.to}
+                    spy
+                    smooth
+                    offset={-70}
+                    duration={800}
+                    onClick={onNavigate}
+                  >
+                    <Icon className="icon" />
+                    <span>{item.label}</span>
+                  </ScrollLink>
+                </li>
+              );
+            })}
+          </ul>
+        </nav>
       </div>
-    )
-}
-export default NavBar
+    </header>
+  );
+};
+
+export default NavBar;
