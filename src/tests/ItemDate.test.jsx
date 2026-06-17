@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import ItemDate from "./ItemDate";
+import ItemDate from "../components/ItemDate";
 
 describe("ItemDate component", () => {
   it("renders children correctly", () => {

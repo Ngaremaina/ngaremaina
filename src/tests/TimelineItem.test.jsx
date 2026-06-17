@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import TimelineItem from "./TimelineItem";
+import TimelineItem from "../components/TimelineItem";
 
 describe("TimelineItem component", () => {
   it("renders children correctly", () => {
