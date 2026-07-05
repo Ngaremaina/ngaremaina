@@ -19,10 +19,10 @@ export const projects = [
     },
     
     {
-        name:"User Central",
-        description:"This system allows efficient management of users and task assignments within our organization. The backend is built with Flask, a Python web framework, providing robust and scalable API endpoints. On the frontend, we utilize React with TypeScript for a modern and type-safe user interface.",
-        link:"https://user-central.vercel.app",
-        image:"https://cdn.pixabay.com/photo/2021/02/03/00/10/receptionists-5975962_1280.jpg"
+        name:"Edamam Recipe Search Engine",
+        description:"This is a recipe search web application built using Django framework and integrating the Edamam API to search for recipes based on user input.",
+        link:"https://recipes-app-ksdw.onrender.com",
+        image:"https://cdn.pixabay.com/photo/2021/09/20/06/55/spaghetti-6639970_1280.jpg"
 
     },
     {
