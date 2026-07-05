@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      spacing: {
+        120: "30rem",
+      },
       colors: {
         base: "#0F0F0F",
         surface: "#2D2E2E",

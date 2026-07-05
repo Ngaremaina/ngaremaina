@@ -1,4 +1,5 @@
 import { Element } from "react-scroll";
+import { IconChevronRight } from "@tabler/icons-react";
 import { details } from "../data/about";
 import profile from '../assets/img/ngare.jpg'
 
@@ -32,7 +33,7 @@ const About = () => {
           <ul className="my-6 grid gap-3 sm:grid-cols-2">
             {details.map((item) => (
               <li key={item.label} className="flex items-center gap-2 text-light/90">
-                <i className="bi bi-chevron-right text-accent" />
+                <IconChevronRight size={16} className="shrink-0 text-accent" />
                 <strong className="text-white">{item.label}:</strong>
                 {item.href ? <a href={item.href}>{item.value}</a> : <span>{item.value}</span>}
               </li>
