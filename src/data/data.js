@@ -21,7 +21,7 @@ export const projects = [
     {
         name:"Edamam Recipe Search Engine",
         description:"This is a recipe search web application built using Django framework and integrating the Edamam API to search for recipes based on user input.",
-        link:"https://edamam-recipes-search-beta.vercel.app/recipes/",
+        link:"https://edamam-recipes-search.vercel.app/recipes/",
         image:"https://cdn.pixabay.com/photo/2021/09/20/06/55/spaghetti-6639970_1280.jpg"
 
     },
